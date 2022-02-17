@@ -178,6 +178,10 @@ img {
       "hero hero"
       "cta1 cta2";
   }
+   .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 500px) {
@@ -186,5 +190,9 @@ img {
       "hero"
       "cta1"
       "cta2";
+  }
+   .menu ul {
+    display: flex;
+    flex-direction: column;
   }
 }
